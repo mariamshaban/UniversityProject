@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Cairo);
+
+
+body, h1, body h2, body h3, body h4, body h5, body h6{
+	font-family: 'Cairo', sans-serif !important;
+}
+ h1 , h2 , h3, h4 ,h5 ,h6 , a , p , ul , li , input , select , form , {
+ 	font-family: 'Cairo', sans-serif ;
+	
+}
+
+.social-icons    {
+	position: fixed;
+	right: 0;
+	top: 30%;
+	display: block;
+	width: 50px;
+	padding: 0;
+	z-index: 27;
+}
+.social-icons li {
+	display: block;
+	transition: 0.5s all ease;
+	position: relative;
+	right: -25px;
+}
+.social-icons li:hover {
+	right: 0;
+}
+.social-icons li a {
+	display: block;
+	background: #fdd;
+	padding: 8px 12px;
+	font-size: 19px;
+	margin: 1px;
+	text-align: center;
+	color: #fff;
+
+}
+.social-icons li:nth-child(1) a { background: #6765a7; }
+.social-icons li:nth-child(2) a { background: #24aaea;}
+.social-icons li:nth-child(3) a { background: #27597d;}
+.social-icons li:nth-child(4) a { background: #cf3411;}
+.social-icons li:nth-child(5) a { background: #961527;}
